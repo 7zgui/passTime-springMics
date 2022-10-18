@@ -1,4 +1,4 @@
-package com.rect.usermanagement.servicesImp;
+package com.rect.usermanagement.services;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.rect.usermanagement.models.User;
@@ -15,8 +15,10 @@ import java.util.stream.Collectors;
  * @author Mohamed ouokki on 10/18/22
  * @project user-management
  */
+
 public class UserDetailsImpl implements UserDetails {
     private static final long serialVersionUID = 1L;
+
 
     private Long id;
 
