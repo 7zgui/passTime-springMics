@@ -1,12 +1,5 @@
 package com.rect.usermanagement.models;
 
-
-
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
 import javax.persistence.*;
 
 /**
@@ -27,11 +20,6 @@ public class Role {
     @Enumerated(EnumType.STRING)
     @Column(length = 20)
     private ERole name;
-
-    public Role(Integer id, ERole name) {
-        this.id = id;
-        this.name = name;
-    }
 
     public Role() {
 
