@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="919f3baf-bfcf-4ebf-aeab-e6ec8696bca9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/user-management/src/main/java/com/rect/usermanagement/payload/request/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-management/src/main/java/com/rect/usermanagement/payload/request/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-service/src/main/resources/startup.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/admin-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

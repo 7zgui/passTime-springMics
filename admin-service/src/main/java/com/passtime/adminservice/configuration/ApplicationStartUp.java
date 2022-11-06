@@ -8,6 +8,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 import org.springframework.util.ObjectUtils;
 
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.PersistenceUnit;
 import java.util.Arrays;
 import java.util.List;
 
@@ -41,4 +43,5 @@ public class ApplicationStartUp {
             }
         });
     }
+
 }

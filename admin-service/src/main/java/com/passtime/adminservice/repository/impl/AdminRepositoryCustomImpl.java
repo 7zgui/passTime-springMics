@@ -17,4 +17,6 @@ public class AdminRepositoryCustomImpl implements AdminRepositoryCustom {
 
     @PersistenceContext
     private EntityManager entityManager;
+
+
 }
